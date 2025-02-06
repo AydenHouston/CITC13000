@@ -1,0 +1,42 @@
+body{
+    background-color: skyblue;
+}
+
+#container{
+    background-color: #5F7EE3;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px black solid;
+    border-radius: 20px ;  
+}
+
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+nav{
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+nav a {
+    color: #E6261B;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 10px 0 10px;
+
+}
+
+nav a:hover{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    text-align: center;
+}
