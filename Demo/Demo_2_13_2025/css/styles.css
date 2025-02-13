@@ -1,0 +1,61 @@
+/*global styles */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: white;
+
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/* Mobile Styles */
+#container {
+    margin: 0   auto;
+    background-color: blue;
+    padding 10px;
+    border: 2px red solid;
+
+}
+
+header h1 {
+    text-align: align;
+    font-size: 24px;
+    color: black;
+}
+
+nav {
+    text-align: center;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: block;
+    }
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+/* Tablet Styles */
+
+
+/* Desktop Styles */
