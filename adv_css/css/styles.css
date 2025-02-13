@@ -76,6 +76,12 @@ img {
     padding: 20px;
     border:  2px solid black;
 }
+#col2 {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    border:  2px solid black;
+}
 #banner {
 
     width: 500px;
@@ -89,4 +95,8 @@ img {
     margin: 20px auto;
     padding: 10px;
     width: 100%;
-}"
+}
+main {
+    display: flex;
+  
+}
