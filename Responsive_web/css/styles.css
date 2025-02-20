@@ -1,14 +1,14 @@
 body {
-    background-color: #f0f8ff; /* AliceBlue */
-    color: #ff0000; /* Red */
+    background-color: #f0f8ff;
+    color: #ff0000;
 }
 
 #container {
-    background-color: #add8e6; /* LightBlue */
+    background-color: #add8e6;
     width: 90%;
     margin: 20px auto;
     padding: 20px;
-    border: 2px solid #0000ff; /* Blue */
+    border: 2px solid #0000ff;
     border-radius: 20px;
 }
 
@@ -27,7 +27,7 @@ main {
 nav {
     text-align: center;
     margin: 20px auto;
-    background-color: #0000ff; /* Blue */
+    background-color: #0000ff;
     padding: 10px;
     border-radius: 10px;
 }
@@ -46,52 +46,51 @@ nav li a {
     display: block;
     text-decoration: none;
     padding: 10px 20px;
-    color: #fff; /* White */
+    color: #fff;
     font-size: 20px;
     font-weight: bold;
     margin: 0 20px;
     width: auto;
     height: auto;
     line-height: normal;
-    background-color: #0000ff; /* Blue */
+    background-color: #0000ff;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 nav a:hover {
-    color: #0000ff; /* Blue */
-    background-color: #fff; /* White */
+    color: #0000ff;
+    background-color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    color: #ff0000; /* Red */
+    color: #ff0000;
 }
 
 p {
-    color: #000; /* Black */
+    color: #000;
 }
 
 #col1, #col2 {
     width: 100%;
     margin: 20px 0;
     padding: 20px;
-    border: 2px solid #0000ff; /* Blue */
+    border: 2px solid #0000ff;
 }
 
 .heading_style {
-    text-shadow: 2px 1px 2px #ff0000; /* Red */
+    text-shadow: 2px 1px 2px #ff0000;
 }
 
 .important-images {
-    border: 2px solid #0000ff; /* Blue */
+    border: 2px solid #0000ff;
     margin: 20px auto;
     padding: 10px;
     max-width: 100%;
     height: auto;
 }
 
-/* Mobile Styles */
 @media screen and (max-width: 767px) {
     #container {
         width: 90%;
@@ -112,7 +111,6 @@ p {
     }
 }
 
-/* Tablet Styles */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #container {
         width: 80%;
@@ -134,7 +132,6 @@ p {
     }
 }
 
-/* Desktop Styles */
 @media screen and (min-width: 1024px) {
     #container {
         width: 60%;
