@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
 body {
     background-color: #f0f8ff;
     color: #ff0000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 #container {
@@ -10,6 +21,9 @@ body {
     padding: 20px;
     border: 2px solid #0000ff;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
@@ -22,6 +36,7 @@ img {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 nav {
@@ -77,6 +92,7 @@ p {
     margin: 20px 0;
     padding: 20px;
     border: 2px solid #0000ff;
+    box-sizing: border-box;
 }
 
 .heading_style {
@@ -91,6 +107,17 @@ p {
     height: auto;
 }
 
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: auto;
+}
+
+/* Mobile Styles */
 @media screen and (max-width: 767px) {
     #container {
         width: 90%;
@@ -109,8 +136,13 @@ p {
         width: 100%;
         margin: 20px 0;
     }
+
+    .video-container {
+        width: 100%;
+    }
 }
 
+/* Tablet Styles */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #container {
         width: 80%;
@@ -119,6 +151,7 @@ p {
     main {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     nav li {
@@ -130,8 +163,13 @@ p {
         width: 45%;
         margin: 20px;
     }
+
+    .video-container {
+        width: 100%;
+    }
 }
 
+/* Desktop Styles */
 @media screen and (min-width: 1024px) {
     #container {
         width: 60%;
@@ -140,6 +178,7 @@ p {
     main {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     nav li {
@@ -150,5 +189,9 @@ p {
     #col1, #col2 {
         width: 45%;
         margin: 20px;
+    }
+
+    .video-container {
+        width: 100%;
     }
 }
