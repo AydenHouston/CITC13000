@@ -7,4 +7,3 @@
     <li> <a href="Responsive_web/index.html" target="_blank" > Responsive Web CSS </a> </li> 
     <li> <a href="Final_Project/index.html" target="_blank" > Final Project </a> </li> 
 </ul>
-
